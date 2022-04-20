@@ -39,7 +39,7 @@ volatile_magic_tp_win <- function(){
         netto_per_shipment = price_per_shipment * 0.85
         profit_per_shipment = netto_per_shipment - 10000
         netto_profit_per_volatile = profit_per_shipment * 0.004
-        names(netto_profit_per_volatile) <- c("buys", "sells")
+        names(netto_profit_per_volatile) <- c("sells", "buys")
         netto_profit_per_volatile
     }
     
